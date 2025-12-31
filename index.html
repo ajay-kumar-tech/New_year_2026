@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Happy New Year 2026 - Personalized Greetings">
+    <title>Happy New Year 2026</title>
+    
+    <!-- Google Fonts - Strict Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Image with Overlay -->
+    <div class="bg-container">
+        <div class="bg-image"></div>
+        <div class="bg-overlay"></div>
+        <canvas id="starsCanvas"></canvas>
+        <canvas id="particlesCanvas"></canvas>
+    </div>
+
+    <!-- Main Content - Single Page -->
+    <main class="main-content">
+        <section class="hero-section" id="hero">
+            <!-- Main Heading -->
+            <h1 class="main-heading" id="mainHeading">
+                <span class="heading-line-1">Happy New Year</span>
+                <span class="heading-line-2" id="yearText">2026</span>
+                <span class="heading-line-3" id="friendName">Friend</span>
+            </h1>
+
+            <!-- Special Message -->
+            <div class="message-container">
+                <h2 class="message-heading">A Special Message</h2>
+                <p class="message-text">
+                    May this year bring happiness, good health, success, and peace into your life.
+                    Wishing you new hopes, new goals, and endless smiles.....
+                </p>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p class="footer-year">© 2026</p>
+            </footer>
+        </section>
+    </main>
+
+    <!-- Canvas for Fireworks (optimized, slow, low opacity) -->
+    <canvas id="fireworksCanvas"></canvas>
+    
+    <!-- Canvas for Rockets and Crackers -->
+    <canvas id="rocketsCanvas"></canvas>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
